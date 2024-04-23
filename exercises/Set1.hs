@@ -62,7 +62,7 @@ distance x1 y1 x2 y2 = sqrt ((x2 - x1)^2 + (y2 - y1)^2)
 ------------------------------------------------------------------------------
 -- Ex 5: define the function eeny that returns "eeny" for even inputs
 -- and "meeny" for odd inputs.
---
+-- 
 -- Ps. have a look at the built in function "even"
 
 eeny :: Integer -> String
