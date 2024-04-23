@@ -91,7 +91,7 @@ isPalindrome str = if reverse str /= str then False
 --   palindromify "xabbay" ==> "abba"
 --   palindromify "abracacabra" ==> "acaca"
 
-palindromify :: String -> String
+palindromify :: String -> String 
 palindromify s = if isPalindrome s then s
                  else palindromify (take (length s - 2) (drop 1 s) )
 
